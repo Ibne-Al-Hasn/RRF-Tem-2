@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+h1, h2, h3, h4, h5{
+    font-family: "Bricolage Grotesque", sans-serif;
+    color: #17134a;
+}
+
+p{
+    color: #45426e;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+}
+
+.wing{
+    background-image: url(/assets/image/wing.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.first-build{
+    background-image: url(https://cdn.dorik.com/5e373b6c43a72a001f56dbf6/61a1f4035bfd7b0011fb92f9/images/cms-bg_2b06w496.svg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-bottom: 40px;
+    padding-top: 7px;
+}
+
+.build-img{
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.6);
+    border-radius: 26px 26px 26px 26px;
+    background-image: linear-gradient(130deg, rgba(155, 144, 196, 0.1) 0%, rgba(62, 67, 127, 0.2) 100%);
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    backdrop-filter: blur(5px);
+}
+
+.b-img{
+    background: url(https://cdn.cmsfly.com/635bcad9b8a74e0091632998/images/Addaheading1-s4-t5.png);
+    background-attachment: scroll;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    width: 957.5px;
+    height: 570px;
+    border-radius: 26px;
+    position: relative;
+}
+
+.margin-top{
+    margin-top: -150px;
+    z-index: 10;
+}
+
+.brand{
+    filter: grayscale(100%) sepia(0%) blur(0px) brightness(100%) hue-rotate(0deg) saturate(100%) opacity(100%) contrast(100%) invert(0%);
+}
+
+
+.footer-bg{
+    background: url(/assets/image/footer-bg.png) no-repeat top ;
+    background-size: contain;
+    background-color: #030521;
+    padding: 120px 0 30px;
+}
