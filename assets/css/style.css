@@ -17,7 +17,7 @@ p{
 }
 
 .wing{
-    background-image: url(/assets/image/wing.svg);
+    background-image: url(../../assets/image/wing.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -70,7 +70,7 @@ p{
 
 
 .footer-bg{
-    background: url(/assets/image/footer-bg.png) no-repeat top ;
+    background: url(../../assets/image/footer-bg.png) no-repeat top ;
     background-size: contain;
     background-color: #030521;
     padding: 120px 0 30px;
